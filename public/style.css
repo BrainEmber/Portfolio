@@ -1,8 +1,11 @@
 header {
-  background-color: darkblue;
+  background-color: rgba(0, 0, 128, 0.8);
   padding-top: 0px;
   color: rgb(57, 255, 20);
   text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0px;
 }
 
 header h1 {
@@ -13,8 +16,43 @@ body {
   background-color: darkorange;
 }
 
-div {
-  display: flex;
-  width: 50%;
-  height: 200px;
+.display {
+  display: block;
+  width: 780px;
+  height: 400px;
+  text-align: center;
+
+
+}
+
+#project_1 {
+  background-image: url(Project_Pictures/project_1.png);
+  background-size: contain;
+}
+
+#project_2 {
+  background-image: url(Project_Pictures/SC2_Builds_picture.png);
+  background-size: contain;
+}
+
+#project_3 {
+  background-image: url(Project_Pictures/Hiking_app_picture.png);
+  background-size: contain;
+}
+
+#project_4 {
+  background-image: url(Project_Pictures/project_4.png);
+  background-size: contain;
+}
+
+.aside {
+  position: relative;
+  left: 100px;
+  height: 150px;
+  width: 400px;
+
+}
+
+#top {
+  margin-top: 120px;
 }
