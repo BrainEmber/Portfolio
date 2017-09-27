@@ -57,3 +57,48 @@ body {
   margin-top: 120px;
   margin-bottom: 50px;
 }
+
+.aTags  {
+  color: orange;
+}
+
+@media only screen and (max-width: 750px) {
+
+  body {
+
+  }
+
+  #project_1 {
+    background-image: url();
+    background-size: contain;
+  }
+
+  #project_2 {
+    background-image: url();
+    background-size: contain;
+  }
+
+  #project_3 {
+    background-image: url();
+    background-size: contain;
+  }
+
+  #project_4 {
+    background-image: url();
+    background-size: contain;
+  }
+
+  .aside {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .funnyAsside {
+    border-top: 100px;
+  }
+
+
+
+
+
+}
